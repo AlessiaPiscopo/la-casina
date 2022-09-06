@@ -20,7 +20,12 @@ export const StyledNavbar = styled(Container)`
 `;
 
 export const Nav = styled.nav``;
-export const StyledNavLink = styled(NavLink);
+export const StyledNavLink = styled(NavLink)`
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+`;
 export const Logo = styled.div``;
 export const LogoImage = styled.img``;
 
