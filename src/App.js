@@ -1,9 +1,13 @@
+import Navbar from "./layout/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>La Casina</h1>
-      </div>
+      <Navbar>
+        <div>
+          <h1>La Casina</h1>
+        </div>
+      </Navbar>
     </>
   );
 }

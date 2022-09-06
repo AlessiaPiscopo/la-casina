@@ -6,7 +6,7 @@
   --text-color-white: var(--color-light);
   --text-color-black: var(--color-dark);
 
-  --bg-color: var(--color-light);
+  --bg-color: rgb(226, 226, 226);
 }
 
 *,
@@ -20,16 +20,17 @@
 html {
   box-sizing: border-box;
   min-height: 100%;
+  font-size: 62.5%; /* sets 1rem equal to 10px instead of default 16px (10px/16px = 62.5%) */
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: var(--text-color-black);
-  background-color: var(--bg-color);
-
-  font-size: 62.5%; /* sets 1rem equal to 10px instead of default 16px (10px/16px = 62.5%) */
+  font-size: 1.6rem;
   line-height: 1.25;
+  color: var(--text-color-black);
   -webkit-font-smoothing: antialiased;
+
+  background-color: var(--bg-color);
 }
 
 button {
