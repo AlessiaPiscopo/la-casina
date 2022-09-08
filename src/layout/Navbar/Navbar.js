@@ -2,25 +2,25 @@ import {
   StyledNavbar,
   Nav,
   StyledNavLink,
-  Logo,
-  LogoImage,
+  CasinaLogoText,
+  MenuContainer,
 } from "./Navbar.styled";
 
 const Navbar = () => {
   return (
     <StyledNavbar className="StyledNavbar">
-      <Nav>
+      <Nav className="Nav">
         <StyledNavLink to="/">
-          <Logo>
-            <LogoImage src="" alt="La Casina"></LogoImage>
-          </Logo>
+          <CasinaLogoText>La Casina</CasinaLogoText>
         </StyledNavLink>
 
-        <StyledNavLink to="/about">About</StyledNavLink>
+        <MenuContainer className="MenuContainer">
+          <StyledNavLink to="/about">About</StyledNavLink>
 
-        <StyledNavLink to="/products">Products</StyledNavLink>
+          <StyledNavLink to="/products">Olive Oil</StyledNavLink>
 
-        <StyledNavLink to="/contact-us">Contact Us</StyledNavLink>
+          <StyledNavLink to="/contact-us">Contact Us</StyledNavLink>
+        </MenuContainer>
       </Nav>
     </StyledNavbar>
   );

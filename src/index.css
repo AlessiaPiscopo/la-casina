@@ -1,7 +1,17 @@
+/* Fonts */
+
+/* Sacramento */
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+/* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 /* Custom Properties */
+
 :root {
   --color-light: #f8f9fa;
   --color-dark: #181a1c;
+  --color-sage: #839471;
 
   --text-color-white: var(--color-light);
   --text-color-black: var(--color-dark);
@@ -26,7 +36,6 @@ html {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  line-height: 1.25;
   color: var(--text-color-black);
   -webkit-font-smoothing: antialiased;
 
