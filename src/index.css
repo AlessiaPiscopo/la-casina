@@ -11,7 +11,7 @@
 :root {
   --color-light: #f8f9fa;
   --color-dark: #181a1c;
-  --color-sage: #839471;
+  --color-sage: #a2aa99;
 
   --text-color-white: var(--color-light);
   --text-color-black: var(--color-dark);

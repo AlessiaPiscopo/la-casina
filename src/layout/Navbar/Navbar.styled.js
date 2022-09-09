@@ -1,30 +1,36 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../components/Container.styled";
+import { ReactComponent as LogoText } from "../../assets/logo-text.svg";
 
 export const StyledNavbar = styled(Container)`
-  height: 65px;
+  // TODO: semi-transparent?
+  background-color: var(--color-sage);
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
-
-  background-color: var(--color-sage);
 `;
 
 export const Nav = styled.nav`
-  width: 100%;
+  /* border: 1px solid blue; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1rem;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
+  color: var(--text-color-white);
   font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: var(--text-color-white);
   letter-spacing: 0.1rem;
 
   &:hover {
@@ -33,15 +39,15 @@ export const StyledNavLink = styled(NavLink)`
   }
 `;
 
-export const CasinaLogoText = styled.span`
-  font-family: "Sacramento", Helvetica, Arial, sans-serif;
-  text-transform: lowercase;
-  font-size: 4.5rem;
+export const StyledLogoText = styled(LogoText)`
+  /* border: 1px solid hotpink; */
+  padding: 1.5rem 0;
 `;
 
 export const MenuContainer = styled.div`
+  /* border: 1px solid yellow; */
   display: flex;
   align-items: center;
   gap: 4.5rem;
-  margin-top: -1rem;
+  padding: 1.5rem 0;
 `;
