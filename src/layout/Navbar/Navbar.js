@@ -2,8 +2,12 @@ import {
   StyledNavbar,
   Nav,
   StyledNavLink,
+  ExternalLink,
   StyledLogoText,
   MenuContainer,
+  IconsNav,
+  StyledCartIcon,
+  StyledFacebookIcon,
 } from "./Navbar.styled";
 
 const Navbar = () => {
@@ -18,12 +22,21 @@ const Navbar = () => {
           <StyledNavLink to="/about">About</StyledNavLink>
           <StyledNavLink to="/products">Olive Oil</StyledNavLink>
           <StyledNavLink to="/contact-us">Contact</StyledNavLink>
-          {/* <div className="Icons">
-    Cart icon links to olive oil page
-              <span className="CartIcon">Cart</span>
-              <span className="FacebookIcon">FB</span>
-            </div> */}
-          // ? en | it translation eventually?
+
+          <IconsNav>
+            <StyledNavLink to="/olive-oil">
+              <StyledCartIcon />
+            </StyledNavLink>
+
+            <ExternalLink
+              href="https://www.facebook.com/az.ag.lacasina"
+              target="_blank"
+            >
+              <StyledFacebookIcon />
+            </ExternalLink>
+          </IconsNav>
+
+          {/* // ? en | it translation eventually? */}
         </MenuContainer>
       </Nav>
     </StyledNavbar>

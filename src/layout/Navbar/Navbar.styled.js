@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../components/Container.styled";
 import { ReactComponent as LogoText } from "../../assets/logo-text.svg";
+import { BsCartFill, BsFacebook } from "react-icons/bs";
 
 export const StyledNavbar = styled(Container)`
   // TODO: semi-transparent?
@@ -39,6 +40,19 @@ export const StyledNavLink = styled(NavLink)`
   }
 `;
 
+export const ExternalLink = styled.a`
+  color: var(--text-color-white);
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+`;
+
 export const StyledLogoText = styled(LogoText)`
   /* border: 1px solid hotpink; */
   padding: 1.5rem 0;
@@ -50,4 +64,27 @@ export const MenuContainer = styled.div`
   align-items: center;
   gap: 4.5rem;
   padding: 1.5rem 0;
+`;
+
+export const IconsNav = styled.div`
+  /* border: 2px solid red; */
+
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+  }
+`;
+
+export const StyledCartIcon = styled(BsCartFill)`
+  fill: #393c37;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 0.65rem;
+`;
+
+export const StyledFacebookIcon = styled(BsFacebook)`
+  fill: #393c37;
+  width: 2.1rem;
+  height: 2.1rem;
 `;
