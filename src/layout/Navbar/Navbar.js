@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <MenuContainer className="MenuContainer">
           <StyledNavLink to="/about">About</StyledNavLink>
-          <StyledNavLink to="/products">Olive Oil</StyledNavLink>
+          <StyledNavLink to="/products/olive-oil">Olive Oil</StyledNavLink>
           <StyledNavLink to="/contact-us">Contact</StyledNavLink>
 
           <IconsNav>

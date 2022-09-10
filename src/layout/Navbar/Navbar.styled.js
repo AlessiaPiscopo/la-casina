@@ -31,7 +31,7 @@ export const StyledNavLink = styled(NavLink)`
   color: var(--text-color-white);
   font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
 
   &:hover {
@@ -80,7 +80,7 @@ export const StyledCartIcon = styled(BsCartFill)`
   fill: #393c37;
   width: 2.2rem;
   height: 2.2rem;
-  margin-right: 0.65rem;
+  margin-right: 0.7rem;
 `;
 
 export const StyledFacebookIcon = styled(BsFacebook)`
