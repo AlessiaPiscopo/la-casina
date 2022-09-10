@@ -4,8 +4,11 @@ import {
   ContentContainer,
   Logo,
 } from "./Home.styled";
+
+// photos & videos
 import PromoStill1 from "../../assets/promo-still-1.png";
 import LogoSvg from "../../assets/logo.svg";
+import OliveTreesAndSunset from "../../assets/olive-trees-and-sunset.jpg";
 
 import CasinaVideo from "./promo-video-cut.mp4";
 
@@ -15,7 +18,7 @@ const Home = () => {
       <StyledBackgroundVideo
         id="background-video"
         autostart
-        // autoPlay
+        autoPlay
         loop
         muted
         disablePictureInPicture
@@ -24,10 +27,10 @@ const Home = () => {
       >
         <source src={CasinaVideo} type="video/mp4" />
       </StyledBackgroundVideo>
-
-      <Logo src={LogoSvg} alt="La Casina logo" />
-      <h1>hello</h1>
-      <h2>some test text</h2>
+      <ContentContainer>
+        <Logo src={LogoSvg} alt="La Casina logo" />
+        <p>Online store coming soon!</p>
+      </ContentContainer>
     </StyledHome>
   );
 };

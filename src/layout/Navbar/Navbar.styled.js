@@ -56,6 +56,7 @@ export const ExternalLink = styled.a`
 export const StyledLogoText = styled(LogoText)`
   /* border: 1px solid hotpink; */
   padding: 1.5rem 0;
+  width: 13.5rem;
 `;
 
 export const MenuContainer = styled.div`

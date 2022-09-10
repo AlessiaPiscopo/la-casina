@@ -3,24 +3,6 @@ import styled from "styled-components";
 export const StyledHome = styled.main`
   width: 100vw;
   height: 100vh;
-
-  h1,
-  h2 {
-    color: white;
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    text-align: center;
-    z-index: 11;
-  }
-
-  h1 {
-    font-size: 6rem;
-    margin-top: 30vh;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
 `;
 
 export const StyledBackgroundVideo = styled.video`
@@ -37,9 +19,22 @@ export const StyledBackgroundVideo = styled.video`
 `;
 
 export const ContentContainer = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
+
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: var(--text-color-white);
+  }
 `;
 
 export const Logo = styled.img`
-  margin: auto 0;
+  /* border: 2px solid blue; */
+
+  width: 40rem;
+  margin-top: 10vh;
 `;
