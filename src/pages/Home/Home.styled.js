@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHome = styled.main`
+export const StyledHome = styled.div`
   width: 100vw;
   height: 100vh;
 `;
@@ -15,7 +15,8 @@ export const StyledBackgroundVideo = styled.video`
   top: 0;
   bottom: 0;
   z-index: -10;
-  filter: brightness(50%);
+  filter: brightness(40%);
+  /* filter: blur(); */
 `;
 
 export const ContentContainer = styled.div`

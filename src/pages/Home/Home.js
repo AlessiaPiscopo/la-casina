@@ -29,7 +29,6 @@ const Home = () => {
       </StyledBackgroundVideo>
       <ContentContainer>
         <Logo src={LogoSvg} alt="La Casina logo" />
-        <p>Online store coming soon!</p>
       </ContentContainer>
     </StyledHome>
   );

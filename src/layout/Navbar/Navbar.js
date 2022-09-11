@@ -23,7 +23,7 @@ const Navbar = () => {
           <StyledNavLink to="/products/olive-oil">Olive Oil</StyledNavLink>
           <StyledNavLink to="/contact-us">Contact</StyledNavLink>
 
-          <IconsNav>
+          {/* <IconsNav>
             <StyledNavLink to="/olive-oil">
               <StyledCartIcon />
             </StyledNavLink>
@@ -34,9 +34,8 @@ const Navbar = () => {
             >
               <StyledFacebookIcon />
             </ExternalLink>
-          </IconsNav>
-
-          {/* // ? en | it translation eventually? */}
+          </IconsNav> */}
+          {/* <StyledNavLink to="#">Online store coming soon!</StyledNavLink> */}
         </MenuContainer>
       </Nav>
     </StyledNavbar>
