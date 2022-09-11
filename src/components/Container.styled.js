@@ -5,8 +5,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   /* border: 2px solid red; */
 
-  width: 95vw;
+  width: 100vw;
   max-width: 100%;
-  /* padding: 0 3rem; */
   margin: 0 auto;
 `;

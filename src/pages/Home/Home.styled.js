@@ -16,26 +16,37 @@ export const StyledBackgroundVideo = styled.video`
   bottom: 0;
   z-index: -10;
   filter: brightness(40%);
-  /* filter: blur(); */
 `;
 
 export const ContentContainer = styled.div`
   /* border: 2px solid red; */
-
-  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 3rem;
+
+  h1,
+  h2,
+  p {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 3rem;
+    color: var(--text-color-white);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
 
   p {
-    color: var(--text-color-white);
+    font-size: 1.6rem;
   }
 `;
 
 export const Logo = styled.img`
   /* border: 2px solid blue; */
 
-  width: 40rem;
-  margin-top: 10vh;
+  width: clamp(20rem, 80vw, 28rem);
+  margin-top: 25vh;
+  padding-bottom: 5rem;
 `;

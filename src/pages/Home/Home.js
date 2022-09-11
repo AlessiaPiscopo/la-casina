@@ -14,9 +14,9 @@ import CasinaVideo from "./promo-video-cut.mp4";
 
 const Home = () => {
   return (
-    <StyledHome>
+    <StyledHome className="StyledHome">
       <StyledBackgroundVideo
-        id="background-video"
+        className="StyledBackgroundVideo"
         autostart
         autoPlay
         loop
@@ -29,6 +29,13 @@ const Home = () => {
       </StyledBackgroundVideo>
       <ContentContainer>
         <Logo src={LogoSvg} alt="La Casina logo" />
+        {/* <h1>Superior quality Sicilian Extra Virgin Olive Oil</h1>
+        <h2>To order, you can email us at </h2> */}
+        <h1>Website & Online Store Coming Soon</h1>
+        <p>
+          To order or for more information, feel free to email us at
+          contact@lacasina.co!
+        </p>
       </ContentContainer>
     </StyledHome>
   );

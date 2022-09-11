@@ -13,16 +13,16 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Container>
+      <Container className="ContainerComponent">
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
 
           {/* <Route path="/products" element={<Products />} /> */}
-          <Route exact path="/products/olive-oil" element={<OliveOil />} />
+          <Route exact path="/" element={<OliveOil />} />
 
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Contact />} />
         </Routes>
       </Container>
     </Router>

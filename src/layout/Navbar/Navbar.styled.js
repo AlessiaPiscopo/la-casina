@@ -23,7 +23,7 @@ export const Nav = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0 0 0;
+    padding: 1.5rem 0 1rem 0;
     /* font-size: 0.2rem; */
   }
 `;
