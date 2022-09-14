@@ -42,18 +42,18 @@ export const StyledNavLink = styled(NavLink)`
   }
 `;
 
-export const ExternalLink = styled.a`
-  color: var(--text-color-white);
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
+// export const ExternalLink = styled.a`
+//   color: var(--text-color-white);
+//   font-family: "Lato", Helvetica, Arial, sans-serif;
+//   text-transform: uppercase;
+//   font-size: 1.2rem;
+//   letter-spacing: 0.1rem;
 
-  &:hover {
-    opacity: 0.5;
-    cursor: pointer;
-  }
-`;
+//   &:hover {
+//     opacity: 0.5;
+//     cursor: pointer;
+//   }
+// `;
 
 export const StyledLogoText = styled(LogoText)`
   /* border: 1px solid hotpink; */
