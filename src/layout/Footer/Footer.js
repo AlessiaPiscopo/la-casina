@@ -5,7 +5,7 @@ const Footer = () => {
     <StyledFooter>
       <span>
         Designed & Developed by{" "}
-        <a href="https://www.linkedin.com/in/alessiapiscopo/">
+        <a href="https://www.linkedin.com/in/alessiapiscopo/" target="_blank">
           Alessia Piscopo
         </a>{" "}
         © 2022

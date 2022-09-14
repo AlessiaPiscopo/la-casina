@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledHome = styled.div`
   width: 100vw;
-  height: 100vh;
 `;
 
 export const StyledBackgroundVideo = styled.video`
@@ -22,12 +21,13 @@ export const StyledBackgroundVideo = styled.video`
 // TODO: fix class names/format
 export const ContentContainer = styled.div`
   /* border: 2px solid red; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  padding: 2rem;
+  padding: 0 2rem;
 
   font-family: Helvetica, Arial, sans-serif;
   color: var(--text-color-white);

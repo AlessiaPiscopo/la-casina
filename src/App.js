@@ -9,24 +9,20 @@ import About from "./pages/About/About";
 import OliveOil from "./pages/Products/OliveOil";
 import Contact from "./pages/Contact/Contact";
 
-import { Container } from "./components/Container.styled";
-
 function App() {
   return (
     <Router>
       <Navbar />
-      <Container className="ContainerComponent">
-        <Routes>
-          <Route path="/" element={<Home />} />
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-          <Route path="/" element={<About />} />
+        <Route path="/" element={<About />} />
 
-          {/* <Route path="/products" element={<Products />} /> */}
-          <Route exact path="/" element={<OliveOil />} />
+        {/* <Route path="/products" element={<Products />} /> */}
+        <Route exact path="/" element={<OliveOil />} />
 
-          <Route path="/" element={<Contact />} />
-        </Routes>
-      </Container>
+        <Route path="/" element={<Contact />} />
+      </Routes>
       <Footer />
     </Router>
   );

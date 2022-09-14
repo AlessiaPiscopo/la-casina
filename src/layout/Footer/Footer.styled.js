@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
+  /* background-color: var(--color-sage-dark); */
+  text-align: center;
+  opacity: 0.5;
+  padding: 2rem;
+
   span {
     color: var(--text-color-white);
     font-family: "Lato", Helvetica, Arial, sans-serif;
