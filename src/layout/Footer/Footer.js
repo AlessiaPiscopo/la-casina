@@ -1,8 +1,16 @@
+import { StyledFooter } from "./Footer.styled";
+
 const Footer = () => {
   return (
-    <footer>
-      <p>© Designed & Developed by Alessia Piscopo</p>
-    </footer>
+    <StyledFooter>
+      <span>
+        Designed & Developed by{" "}
+        <a href="https://www.linkedin.com/in/alessiapiscopo/">
+          Alessia Piscopo
+        </a>{" "}
+        © 2022
+      </span>
+    </StyledFooter>
   );
 };
 
