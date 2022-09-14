@@ -2,7 +2,6 @@ import {
   StyledNavbar,
   Nav,
   StyledNavLink,
-  ExternalLink,
   StyledLogoText,
   MenuContainer,
   IconsNav,
@@ -35,7 +34,6 @@ const Navbar = () => {
               <StyledFacebookIcon />
             </ExternalLink>
           </IconsNav> */}
-          {/* <StyledNavLink to="#">Online store coming soon!</StyledNavLink> */}
         </MenuContainer>
       </Nav>
     </StyledNavbar>

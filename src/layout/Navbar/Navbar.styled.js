@@ -4,7 +4,6 @@ import { ReactComponent as LogoText } from "../../assets/logo-text.svg";
 import { BsCartFill, BsFacebook } from "react-icons/bs";
 
 export const StyledNavbar = styled.div`
-  /* border: 2px solid blue; */
   background-color: var(--color-sage);
   position: sticky;
   top: 0;
@@ -12,8 +11,6 @@ export const StyledNavbar = styled.div`
 `;
 
 export const Nav = styled.nav`
-  /* border: 1px solid blue; */
-
   padding: 0 3rem;
   display: flex;
   align-items: center;
@@ -24,7 +21,6 @@ export const Nav = styled.nav`
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem 0 1rem 0;
-    /* font-size: 0.2rem; */
   }
 `;
 
@@ -33,7 +29,6 @@ export const StyledNavLink = styled(NavLink)`
   font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: clamp(1rem, 5vw, 1.3rem);
-  /* font-size: 1.3rem; */
   letter-spacing: 0.1rem;
 
   &:hover {
@@ -42,28 +37,12 @@ export const StyledNavLink = styled(NavLink)`
   }
 `;
 
-// export const ExternalLink = styled.a`
-//   color: var(--text-color-white);
-//   font-family: "Lato", Helvetica, Arial, sans-serif;
-//   text-transform: uppercase;
-//   font-size: 1.2rem;
-//   letter-spacing: 0.1rem;
-
-//   &:hover {
-//     opacity: 0.5;
-//     cursor: pointer;
-//   }
-// `;
-
 export const StyledLogoText = styled(LogoText)`
-  /* border: 1px solid hotpink; */
   padding: 1.5rem 0;
   width: 13.5rem;
 `;
 
 export const MenuContainer = styled.div`
-  /* border: 1px solid yellow; */
-
   display: flex;
   align-items: center;
   gap: clamp(1rem, 5vw, 4.5rem);
@@ -72,8 +51,6 @@ export const MenuContainer = styled.div`
 `;
 
 export const IconsNav = styled.div`
-  /* border: 2px solid red; */
-
   opacity: 0.85;
 
   &:hover {
