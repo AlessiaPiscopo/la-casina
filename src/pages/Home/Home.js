@@ -8,7 +8,7 @@ import {
 // photos & videos
 import PromoStill1 from "../../assets/promo-still-1.png";
 import LogoSvg from "../../assets/logo.svg";
-import CasinaVideo from "./promo-video-cut.mp4";
+import CasinaVideo from "../../assets/promo-video.mp4";
 
 const Home = () => {
   return (
