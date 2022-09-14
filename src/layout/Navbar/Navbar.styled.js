@@ -63,10 +63,12 @@ export const StyledLogoText = styled(LogoText)`
 
 export const MenuContainer = styled.div`
   /* border: 1px solid yellow; */
+
   display: flex;
   align-items: center;
   gap: clamp(1rem, 5vw, 4.5rem);
   padding: 1.5rem 0;
+  opacity: 0.75;
 `;
 
 export const IconsNav = styled.div`

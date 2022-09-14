@@ -19,9 +19,9 @@ const Navbar = () => {
         </StyledNavLink>
 
         <MenuContainer className="MenuContainer">
-          <StyledNavLink to="/about">About</StyledNavLink>
-          <StyledNavLink to="/products/olive-oil">Olive Oil</StyledNavLink>
-          <StyledNavLink to="/contact-us">Contact</StyledNavLink>
+          <StyledNavLink to="/">About</StyledNavLink>
+          <StyledNavLink to="/">Olive Oil</StyledNavLink>
+          <StyledNavLink to="/">Contact</StyledNavLink>
 
           {/* <IconsNav>
             <StyledNavLink to="/olive-oil">

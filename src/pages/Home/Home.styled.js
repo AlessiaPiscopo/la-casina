@@ -15,7 +15,7 @@ export const StyledBackgroundVideo = styled.video`
   top: 0;
   bottom: 0;
   z-index: -10;
-  filter: brightness(25%);
+  filter: brightness(40%);
 `;
 
 // TODO: StyledContainer instead?
